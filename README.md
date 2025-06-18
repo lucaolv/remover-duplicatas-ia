@@ -34,11 +34,12 @@ def remover_duplicatas(array):
             resultado.append(item)
             vistos.add(item)
     return resultado
-
+```
 
 🧪 Exemplos de uso
 Veja como é fácil usar a função:
 
+```
 print(remover_duplicatas([1, 2, 2, 3, 4, 4, 5]))
 # Saída: [1, 2, 3, 4, 5]
 
@@ -50,6 +51,7 @@ print(remover_duplicatas([1, 1, 1, 1, 1]))
 
 print(remover_duplicatas([]))
 # Saída: []
+```
 
 🤔 Dicas
 Sempre use print() para ver o resultado na tela!
@@ -58,4 +60,3 @@ Não altera a lista original, só devolve uma nova lista sem duplicatas.
 
 📚 Resumo
 Com poucas linhas de código, você elimina duplicatas e mantém a ordem dos seus dados. Simples, eficiente e fácil de adaptar para outros projetos!
-```
